@@ -235,6 +235,7 @@ section{padding-block:clamp(56px, 9vw, 104px)}
 .menu-panel .menu-label{font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);padding:10px 12px 4px}
 .menu-panel .sub{padding-left:24px}
 .menu-panel{max-height:calc(100vh - 100px);overflow:auto}
+.svc-grid .svc:last-child:nth-child(odd){grid-column:1/-1}
 .svc .more{margin-top:auto;font-weight:500;font-size:0.95rem;color:var(--coral-text);text-decoration:none;display:inline-flex;gap:8px;align-items:center}
 .svc .more:hover{text-decoration:underline}
 .also{margin-top:clamp(20px,3vw,28px);display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:16px 28px;align-items:center;padding:22px clamp(20px,3vw,32px);border:1px solid var(--line);border-left:3px solid #0E7C86;background:var(--bg)}
